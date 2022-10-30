@@ -66,7 +66,7 @@ def gen(
     help="allow repeat characters",
 )
 @click.version_option()
-def pgen(
+def run(
     length: int,
     uppercase: bool,
     lowercase: bool,
