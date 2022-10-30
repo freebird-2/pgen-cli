@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pgen = pgen_cli:run",
+            "pgen = pgen_cli:pgen",
         ]
     },
 )
