@@ -24,6 +24,8 @@ def generate(
 
 
 def generate_from(length: int, chars: str, repeat: bool) -> str:
+    if not repeat and length > len(chars):
+        raise click.UsageError(f"Not enough characters for a password of length {length}")
     if repeat:
         return "".join(random.choices(chars, k=length))
     else:

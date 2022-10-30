@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="pgen-cli",
+    name="pgen_cli",
     version="0.1.0",
     py_modules=["pgen_cli"],
     install_requires=[
